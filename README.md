@@ -1,6 +1,6 @@
 # Pima Indians Diabetes Database
 
-- code source: <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Pima Indians Diabetes (Kaggle)<a>
+- code source: <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Pima Indians Diabetes (Kaggle)</a>
 
 ## Summary
 
@@ -42,11 +42,11 @@ The datasets consists of several medical predictor variables and one target vari
 
 
 
-<b>This dataset does not have a defined header.<b> Therefore, I have created a header which are based on the characteristics of each feature.
+<b>This dataset does not have a defined header.</b> Therefore, I have created a header which are based on the characteristics of each feature.
 
 
 
-## Geeting Started
+## Getting Started
 
 If you want to download this repository, just follow the steps below:
 
