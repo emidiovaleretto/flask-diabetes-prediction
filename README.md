@@ -60,7 +60,7 @@ If you want to download this repository, just follow the steps below:
 
 The `requirements.txt` file should list all Python libraries that the project depend on, and they will be installed using:
 
-​		`pip install -r requirements.txt`
+	`pip install -r requirements.txt`
 
 3. Once the libraries are installed, just execute the command line:
 
