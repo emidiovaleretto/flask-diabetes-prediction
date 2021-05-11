@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Diabetes Prediction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="static/css/nunito-font.css">
+    <link rel="stylesheet" href="static/css/style.css"/>
+</head>
+<body class="form-v6">
+<div class="page-content">
+    <div class="form-v6-content">
+        <div class="form-left">
+            <img src="static/img/diabetes.jpg" class="image" alt="form">
+        </div>
+        <form class="form-detail" action="/prediction" method="POST">
+            <h2>Diabetes Prediction</h2>
+            <div class="form-row">
+                <input type="text" name="pregnancy" id="pregnancy" class="input-text"
+                       placeholder="Number of Pregnancies" autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="text" id="gluc" name="gluc" class="input-text" placeholder="Glucose Concentration"
+                       autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="diatolic" id="diatolic" class="input-text"
+                       placeholder="Diastolic Pressure (mm/Hg)" autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="triceps" id="triceps" class="input-text"
+                       placeholder="Triceps Skinfold Thickness (mm)" autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="insulin" id="insulin" class="input-text" placeholder="Insulin Level (mm U/ml)"
+                       autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="bmi" id="bmi" class="input-text" placeholder="BMI" autocomplete="off"
+                       required>
+            </div>
+            <div class="form-row">
+                <input type="text" name="family-hist" id="family-hist" class="input-text"
+                       placeholder="Family History of Diabetes" autocomplete="off" required>
+            </div>
+            <div class="form-row">
+                <input type="number" name="age" id="age" class="input-text" min="0" placeholder="Age"
+                       autocomplete="off" required>
+            </div>
+            <div class="form-row-last">
+                <input type="submit" class="send" value="Send">
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
