@@ -1,6 +1,6 @@
 # Pima Indians Diabetes Database
 
-<img src="static/img/cover.jpg" alt="diabetes image">
+<img src="./static/img/cover.jpg" alt="diabetes image">
 
 - code source: <a href="https://www.kaggle.com/uciml/pima-indians-diabetes-database">Pima Indians Diabetes (Kaggle)</a>
 
